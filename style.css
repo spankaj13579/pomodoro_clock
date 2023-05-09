@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(31, 31, 31);
+    color: #ededed;
+}
+.containerMain{
+    width: 30%;
+    margin: auto;
+    background-color: #edab7b;
+    position: relative;
+    top:0;
+    height: 90vh;
+}
+.container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    background-color: #4A3E33;
+    height: 80vh;
+    position: relative;
+    top: 5vh;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+
+}
+.blue{
+    color: #00A0B0;
+}
+.red{
+    color: #DE6834;
+}
+.container .times{
+    padding: 80px 50px;
+    background-color: #ededed;
+    
+    margin: 2vw 3vw;
+    position: relative;
+    top: 10px; 
+}
+.sessionNo{
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 15px;
+    margin: 5px 15px;
+    border-bottom: 1px dotted #ededed;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 15px;
+    border-bottom: 1px dotted #ededed;
+    padding: 14px 18px 18px 18px;
+    justify-content: space-between;
+
+}
+.sessionTime p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.sTime{
+    color: #00A0B0;
+    font-size: 1.3rem;
+    font-weight: 100;   
+    margin-bottom: 8px
+}
+.bTime
+{
+    color: #DE6834;
+    font-size: 1.3rem;
+    font-weight: 100;   
+    margin-bottom: 8px;
+}
+input[type= button]{
+    padding: 3px 10px;
+    font-size: 0.6rem;
+    background-color: rgba(31, 31, 31, 0.809);
+    border: none;
+    color: #ededed;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.ButtonBig{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.ButtonBig input[type= button]{
+    font-size: 1rem;
+    padding: 10px 16px;
+    
+}
+
+@media(max-width: 1000px)
+{
+    .containerMain{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media(max-width: 720px)
+{
+    .containerMain{
+        width: 95%;
+        margin: auto;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+}
